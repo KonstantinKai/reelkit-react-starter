@@ -2,10 +2,10 @@ import { useRef, useState } from 'react';
 import { Reel, ReelIndicator, type ReelApi } from '@reelkit/react';
 
 const slides = [
-  { title: 'Welcome', subtitle: 'Swipe or use controls', color: '#6366f1' },
-  { title: 'Features', subtitle: 'Touch, keyboard & wheel', color: '#8b5cf6' },
-  { title: 'Pricing', subtitle: 'Flexible plans', color: '#ec4899' },
-  { title: 'Contact', subtitle: 'Get in touch', color: '#14b8a6' },
+  { title: 'Discover', subtitle: 'Swipe or use controls', color: '#6366f1' },
+  { title: 'Trending', subtitle: 'Touch, keyboard & wheel', color: '#8b5cf6' },
+  { title: 'Following', subtitle: 'Your personalized feed', color: '#ec4899' },
+  { title: 'For You', subtitle: 'Explore new content', color: '#14b8a6' },
 ];
 
 export default function App() {
