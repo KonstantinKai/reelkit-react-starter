@@ -53,6 +53,8 @@ export default function App() {
         }}
       >
         <ReelIndicator
+          count={slides.length}
+          active={currentIndex}
           direction="vertical"
           radius={3}
           gap={4}
